@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GBNetWork"
-  s.version      = "1.0.6"
+  s.version      = "1.0.0"
   s.summary      = "GBNetWork. for quik development "
 
   # This description is used to generate tags and improve search results.
@@ -107,7 +107,7 @@ GBNetWork. for quik development GBNetWork. for quik development
   #
 
   #s.resource  = "GBNetWork/**/*.xib"
-   s.resources = "GBNetWork/**/*.xib", "GBNetWork/Resource/Media.xcassets/**/*.png","GBNetWork/**/*.bundle"
+   # s.resources = "GBNetWork/**/*.xib", "GBNetWork/Resource/Media.xcassets/**/*.png","GBNetWork/**/*.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -121,8 +121,8 @@ GBNetWork. for quik development GBNetWork. for quik development
   # s.framework  = "UIKit"
   # s.frameworks = "UIKit", "RongIMKit", "ShareSDK", "SinaWeiboConnector", "ShareSDKConnector", "ShareSDKConfigFile", "CopyConnector", "QQConnector", "MOBFoundation", "TencentOpenAPI", "WechatConnector", "ShareSDKUI", "SMSConnector", "MailConnector", "ShareSDK", "ShareSDKExtension"
   s.frameworks = "UIKit", "Foundation"
-  s.ios.vendored_frameworks = "GBNetWork/**/*.framework"
-  s.ios.vendored_libraries = "GBNetWork/**/*.a"
+  # s.ios.vendored_frameworks = "GBNetWork/**/*.framework"
+  # s.ios.vendored_libraries = "GBNetWork/**/*.a"
   #s.vendored_frameworks = "ShareSDK.framework"
 
 
@@ -142,7 +142,7 @@ GBNetWork. for quik development GBNetWork. for quik development
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
-s.dependency 'AFNetworking', '~> 3.1.0'
+s.dependency 'AFNetworking'
 s.prefix_header_contents = <<-EOS
 #ifdef __OBJC__
 
