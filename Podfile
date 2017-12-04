@@ -5,5 +5,11 @@ platform :ios, ‘8.0’
 
 target 'GBNetWork' do
     pod 'AFNetworking'
+    pod 'MJExtension'
+end
+
+target 'GBNetWorkTests' do
+    pod 'AFNetworking'
+    pod 'MJExtension'
 end
 

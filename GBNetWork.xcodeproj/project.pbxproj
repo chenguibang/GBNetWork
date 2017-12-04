@@ -7,23 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11AE49C984C9F80A2CD7DEC2 /* libPods-GBNetWorkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F22B251DC8F9D84BAFEDD7F /* libPods-GBNetWorkTests.a */; };
 		9770639B891006BD4B508B4A /* libPods-GBNetWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C017A8D94DE825C594522B2 /* libPods-GBNetWork.a */; };
 		F8075C9C1FD4E37F004B4480 /* GBNetWork.h in Headers */ = {isa = PBXBuildFile; fileRef = F8075C9A1FD4E37F004B4480 /* GBNetWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8075CE71FD4E81B004B4480 /* GBSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F8075CE51FD4E81B004B4480 /* GBSessionManager.h */; };
-		F8075CE81FD4E81B004B4480 /* GBSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075CE61FD4E81B004B4480 /* GBSessionManager.m */; };
-		F8075CEA1FD4E8A3004B4480 /* libPods-Water.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8075CEB1FD4E8A3004B4480 /* libPods-Water.a */; };
+		F8075CEE1FD4FB8B004B4480 /* GBSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075CEC1FD4FB8B004B4480 /* GBSessionManager.m */; };
+		F8075CEF1FD4FB8B004B4480 /* GBSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F8075CED1FD4FB8B004B4480 /* GBSessionManager.h */; };
+		F8075CF41FD4FBDF004B4480 /* ApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F8075CF01FD4FBDF004B4480 /* ApiResponse.h */; };
+		F8075CF51FD4FBDF004B4480 /* ApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075CF11FD4FBDF004B4480 /* ApiResponse.m */; };
+		F8075CF61FD4FBDF004B4480 /* ApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075CF21FD4FBDF004B4480 /* ApiRequest.m */; };
+		F8075CF71FD4FBDF004B4480 /* ApiRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F8075CF31FD4FBDF004B4480 /* ApiRequest.h */; };
+		F8075CFA1FD4FE3A004B4480 /* GBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F8075CF81FD4FE3A004B4480 /* GBRequest.h */; };
+		F8075CFB1FD4FE3A004B4480 /* GBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075CF91FD4FE3A004B4480 /* GBRequest.m */; };
+		F8075CFE1FD4FED4004B4480 /* GBResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F8075CFC1FD4FED4004B4480 /* GBResponse.h */; };
+		F8075CFF1FD4FED4004B4480 /* GBResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075CFD1FD4FED4004B4480 /* GBResponse.m */; };
+		F8075D241FD51667004B4480 /* GBNetWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075D231FD51667004B4480 /* GBNetWorkTests.m */; };
+		F8075D261FD51667004B4480 /* GBNetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8075C971FD4E37F004B4480 /* GBNetWork.framework */; };
+		F8075D2E1FD51987004B4480 /* GBResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = F8075D2C1FD51987004B4480 /* GBResponseSerializer.h */; };
+		F8075D2F1FD51987004B4480 /* GBResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075D2D1FD51987004B4480 /* GBResponseSerializer.m */; };
+		F8075D321FD519A9004B4480 /* GBRequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = F8075D301FD519A9004B4480 /* GBRequestSerializer.h */; };
+		F8075D331FD519A9004B4480 /* GBRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075D311FD519A9004B4480 /* GBRequestSerializer.m */; };
+		F8075D3F1FD534C0004B4480 /* APiSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F8075D3D1FD534BF004B4480 /* APiSessionManager.h */; };
+		F8075D401FD534C0004B4480 /* APiSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075D3E1FD534BF004B4480 /* APiSessionManager.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8075D271FD51667004B4480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8075C8E1FD4E37F004B4480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8075C961FD4E37F004B4480;
+			remoteInfo = GBNetWork;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		091ACA4AF6B124D262493170 /* Pods-GBNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBNetWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GBNetWork/Pods-GBNetWork.debug.xcconfig"; sourceTree = "<group>"; };
 		0D8AB6986E155BE3547A40E4 /* Pods-GBNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBNetWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-GBNetWork/Pods-GBNetWork.release.xcconfig"; sourceTree = "<group>"; };
+		0FEE8270EA4A913F9B29352B /* Pods-GBNetWorkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBNetWorkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GBNetWorkTests/Pods-GBNetWorkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F22B251DC8F9D84BAFEDD7F /* libPods-GBNetWorkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GBNetWorkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C017A8D94DE825C594522B2 /* libPods-GBNetWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GBNetWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A3B3E48E0422905FA4D9CE /* Pods-GBNetWorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GBNetWorkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GBNetWorkTests/Pods-GBNetWorkTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8075C971FD4E37F004B4480 /* GBNetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8075C9A1FD4E37F004B4480 /* GBNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBNetWork.h; sourceTree = "<group>"; };
 		F8075C9B1FD4E37F004B4480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8075CE51FD4E81B004B4480 /* GBSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBSessionManager.h; sourceTree = "<group>"; };
-		F8075CE61FD4E81B004B4480 /* GBSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBSessionManager.m; sourceTree = "<group>"; };
-		F8075CEB1FD4E8A3004B4480 /* libPods-Water.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-Water.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8075CEC1FD4FB8B004B4480 /* GBSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBSessionManager.m; sourceTree = "<group>"; };
+		F8075CED1FD4FB8B004B4480 /* GBSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBSessionManager.h; sourceTree = "<group>"; };
+		F8075CF01FD4FBDF004B4480 /* ApiResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiResponse.h; sourceTree = "<group>"; };
+		F8075CF11FD4FBDF004B4480 /* ApiResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiResponse.m; sourceTree = "<group>"; };
+		F8075CF21FD4FBDF004B4480 /* ApiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiRequest.m; sourceTree = "<group>"; };
+		F8075CF31FD4FBDF004B4480 /* ApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiRequest.h; sourceTree = "<group>"; };
+		F8075CF81FD4FE3A004B4480 /* GBRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBRequest.h; sourceTree = "<group>"; };
+		F8075CF91FD4FE3A004B4480 /* GBRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBRequest.m; sourceTree = "<group>"; };
+		F8075CFC1FD4FED4004B4480 /* GBResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBResponse.h; sourceTree = "<group>"; };
+		F8075CFD1FD4FED4004B4480 /* GBResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBResponse.m; sourceTree = "<group>"; };
+		F8075D211FD51667004B4480 /* GBNetWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBNetWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8075D231FD51667004B4480 /* GBNetWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBNetWorkTests.m; sourceTree = "<group>"; };
+		F8075D251FD51667004B4480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8075D2C1FD51987004B4480 /* GBResponseSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBResponseSerializer.h; sourceTree = "<group>"; };
+		F8075D2D1FD51987004B4480 /* GBResponseSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBResponseSerializer.m; sourceTree = "<group>"; };
+		F8075D301FD519A9004B4480 /* GBRequestSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBRequestSerializer.h; sourceTree = "<group>"; };
+		F8075D311FD519A9004B4480 /* GBRequestSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBRequestSerializer.m; sourceTree = "<group>"; };
+		F8075D3D1FD534BF004B4480 /* APiSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APiSessionManager.h; sourceTree = "<group>"; };
+		F8075D3E1FD534BF004B4480 /* APiSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APiSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,8 +76,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8075CEA1FD4E8A3004B4480 /* libPods-Water.a in Frameworks */,
 				9770639B891006BD4B508B4A /* libPods-GBNetWork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8075D1E1FD51666004B4480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8075D261FD51667004B4480 /* GBNetWork.framework in Frameworks */,
+				11AE49C984C9F80A2CD7DEC2 /* libPods-GBNetWorkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +97,8 @@
 			children = (
 				091ACA4AF6B124D262493170 /* Pods-GBNetWork.debug.xcconfig */,
 				0D8AB6986E155BE3547A40E4 /* Pods-GBNetWork.release.xcconfig */,
+				0FEE8270EA4A913F9B29352B /* Pods-GBNetWorkTests.debug.xcconfig */,
+				84A3B3E48E0422905FA4D9CE /* Pods-GBNetWorkTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -52,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				F8075C991FD4E37F004B4480 /* GBNetWork */,
+				F8075D221FD51667004B4480 /* GBNetWorkTests */,
 				F8075C981FD4E37F004B4480 /* Products */,
 				F8075CE91FD4E8A3004B4480 /* Frameworks */,
 				53290549B5CEDE301E1D92CF /* Pods */,
@@ -62,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				F8075C971FD4E37F004B4480 /* GBNetWork.framework */,
+				F8075D211FD51667004B4480 /* GBNetWorkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,10 +126,24 @@
 		F8075C991FD4E37F004B4480 /* GBNetWork */ = {
 			isa = PBXGroup;
 			children = (
-				F8075CE51FD4E81B004B4480 /* GBSessionManager.h */,
-				F8075CE61FD4E81B004B4480 /* GBSessionManager.m */,
+				F8075D3D1FD534BF004B4480 /* APiSessionManager.h */,
+				F8075D3E1FD534BF004B4480 /* APiSessionManager.m */,
+				F8075CF31FD4FBDF004B4480 /* ApiRequest.h */,
+				F8075CF21FD4FBDF004B4480 /* ApiRequest.m */,
+				F8075CF01FD4FBDF004B4480 /* ApiResponse.h */,
+				F8075CF11FD4FBDF004B4480 /* ApiResponse.m */,
+				F8075CED1FD4FB8B004B4480 /* GBSessionManager.h */,
+				F8075CEC1FD4FB8B004B4480 /* GBSessionManager.m */,
 				F8075C9A1FD4E37F004B4480 /* GBNetWork.h */,
 				F8075C9B1FD4E37F004B4480 /* Info.plist */,
+				F8075CF81FD4FE3A004B4480 /* GBRequest.h */,
+				F8075CF91FD4FE3A004B4480 /* GBRequest.m */,
+				F8075CFC1FD4FED4004B4480 /* GBResponse.h */,
+				F8075CFD1FD4FED4004B4480 /* GBResponse.m */,
+				F8075D2C1FD51987004B4480 /* GBResponseSerializer.h */,
+				F8075D2D1FD51987004B4480 /* GBResponseSerializer.m */,
+				F8075D301FD519A9004B4480 /* GBRequestSerializer.h */,
+				F8075D311FD519A9004B4480 /* GBRequestSerializer.m */,
 			);
 			path = GBNetWork;
 			sourceTree = "<group>";
@@ -80,10 +151,19 @@
 		F8075CE91FD4E8A3004B4480 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F8075CEB1FD4E8A3004B4480 /* libPods-Water.a */,
 				4C017A8D94DE825C594522B2 /* libPods-GBNetWork.a */,
+				3F22B251DC8F9D84BAFEDD7F /* libPods-GBNetWorkTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8075D221FD51667004B4480 /* GBNetWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8075D231FD51667004B4480 /* GBNetWorkTests.m */,
+				F8075D251FD51667004B4480 /* Info.plist */,
+			);
+			path = GBNetWorkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,8 +173,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8075CE71FD4E81B004B4480 /* GBSessionManager.h in Headers */,
+				F8075D2E1FD51987004B4480 /* GBResponseSerializer.h in Headers */,
+				F8075CEF1FD4FB8B004B4480 /* GBSessionManager.h in Headers */,
+				F8075CF71FD4FBDF004B4480 /* ApiRequest.h in Headers */,
+				F8075D3F1FD534C0004B4480 /* APiSessionManager.h in Headers */,
+				F8075CFA1FD4FE3A004B4480 /* GBRequest.h in Headers */,
+				F8075CF41FD4FBDF004B4480 /* ApiResponse.h in Headers */,
+				F8075CFE1FD4FED4004B4480 /* GBResponse.h in Headers */,
 				F8075C9C1FD4E37F004B4480 /* GBNetWork.h in Headers */,
+				F8075D321FD519A9004B4480 /* GBRequestSerializer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +208,27 @@
 			productReference = F8075C971FD4E37F004B4480 /* GBNetWork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F8075D201FD51666004B4480 /* GBNetWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8075D291FD51667004B4480 /* Build configuration list for PBXNativeTarget "GBNetWorkTests" */;
+			buildPhases = (
+				486877ED4312310A240243CC /* [CP] Check Pods Manifest.lock */,
+				F8075D1D1FD51666004B4480 /* Sources */,
+				F8075D1E1FD51666004B4480 /* Frameworks */,
+				F8075D1F1FD51666004B4480 /* Resources */,
+				638DDF64B9CB67B3FEC9175F /* [CP] Embed Pods Frameworks */,
+				7A168CB2819BD3D287269633 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8075D281FD51667004B4480 /* PBXTargetDependency */,
+			);
+			name = GBNetWorkTests;
+			productName = GBNetWorkTests;
+			productReference = F8075D211FD51667004B4480 /* GBNetWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -131,6 +239,10 @@
 				ORGANIZATIONNAME = chengb;
 				TargetAttributes = {
 					F8075C961FD4E37F004B4480 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F8075D201FD51666004B4480 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -149,6 +261,7 @@
 			projectRoot = "";
 			targets = (
 				F8075C961FD4E37F004B4480 /* GBNetWork */,
+				F8075D201FD51666004B4480 /* GBNetWorkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -161,9 +274,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8075D1F1FD51666004B4480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		486877ED4312310A240243CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		638DDF64B9CB67B3FEC9175F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GBNetWorkTests/Pods-GBNetWorkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A168CB2819BD3D287269633 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GBNetWorkTests/Pods-GBNetWorkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7B197002D064191F45F0D42A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,11 +366,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8075CE81FD4E81B004B4480 /* GBSessionManager.m in Sources */,
+				F8075CFB1FD4FE3A004B4480 /* GBRequest.m in Sources */,
+				F8075D2F1FD51987004B4480 /* GBResponseSerializer.m in Sources */,
+				F8075CFF1FD4FED4004B4480 /* GBResponse.m in Sources */,
+				F8075CEE1FD4FB8B004B4480 /* GBSessionManager.m in Sources */,
+				F8075D331FD519A9004B4480 /* GBRequestSerializer.m in Sources */,
+				F8075CF51FD4FBDF004B4480 /* ApiResponse.m in Sources */,
+				F8075CF61FD4FBDF004B4480 /* ApiRequest.m in Sources */,
+				F8075D401FD534C0004B4480 /* APiSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8075D1D1FD51666004B4480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8075D241FD51667004B4480 /* GBNetWorkTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8075D281FD51667004B4480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8075C961FD4E37F004B4480 /* GBNetWork */;
+			targetProxy = F8075D271FD51667004B4480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F8075C9D1FD4E37F004B4480 /* Debug */ = {
@@ -362,6 +550,34 @@
 			};
 			name = Release;
 		};
+		F8075D2A1FD51667004B4480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FEE8270EA4A913F9B29352B /* Pods-GBNetWorkTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DS9W6935FH;
+				INFOPLIST_FILE = GBNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengb.GBNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8075D2B1FD51667004B4480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A3B3E48E0422905FA4D9CE /* Pods-GBNetWorkTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DS9W6935FH;
+				INFOPLIST_FILE = GBNetWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengb.GBNetWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -379,6 +595,15 @@
 			buildConfigurations = (
 				F8075CA01FD4E37F004B4480 /* Debug */,
 				F8075CA11FD4E37F004B4480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8075D291FD51667004B4480 /* Build configuration list for PBXNativeTarget "GBNetWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8075D2A1FD51667004B4480 /* Debug */,
+				F8075D2B1FD51667004B4480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

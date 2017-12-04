@@ -143,6 +143,7 @@ GBNetWork. for quik development GBNetWork. for quik development
   # s.dependency "JSONKit", "~> 1.4"
 
 s.dependency 'AFNetworking'
+s.dependency 'MJExtension'
 s.prefix_header_contents = <<-EOS
 #ifdef __OBJC__
 
