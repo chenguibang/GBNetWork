@@ -22,7 +22,9 @@
 
 - (NSURLSessionDataTask *)API_GET:(ApiRequest *)request progress:(void (^)(NSProgress * progress))downloadProgress success:(void (^)(ApiResponse *response))success failure:(void (^)(NSURLSessionDataTask * task, NSError * error))failure{
     
-    
+    if(request.token){
+        [self.requestSerializer setValue:request.token forHTTPHeaderField:@"token"];
+    }
     [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
     [AFNetworkActivityIndicatorManager sharedManager].completionDelay = 0.3;
     //请求头设置

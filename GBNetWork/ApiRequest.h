@@ -11,6 +11,7 @@
 @interface ApiRequest : NSObject
 @property (nonatomic, strong) NSURLSessionDataTask *task;
 @property (nonatomic, copy) NSString *serverUrl;
+@property (nonatomic, copy) NSString *token;
 @property (nonatomic, copy) NSString *apiInterface;
 @property (nonatomic, strong) NSDictionary *paths; //restful 风格参数
 @property (nonatomic, assign) NSTimeInterval *timeout;

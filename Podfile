@@ -6,6 +6,7 @@ platform :ios, ‘8.0’
 target 'GBNetWork' do
     pod 'AFNetworking'
     pod 'MJExtension'
+    pod 'SVProgressHUD'
 end
 
 target 'GBNetWorkTests' do
