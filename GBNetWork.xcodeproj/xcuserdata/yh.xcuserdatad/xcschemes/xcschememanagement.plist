@@ -7,7 +7,7 @@
 		<key>GBNetWork.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>99</integer>
 		</dict>
 		<key>GBNetWorkTests.xcscheme</key>
 		<dict>

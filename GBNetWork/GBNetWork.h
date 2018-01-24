@@ -16,4 +16,8 @@ FOUNDATION_EXPORT const unsigned char GBNetWorkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GBNetWork/PublicHeader.h>
 
+#import <GBNetWork/ApiResponse.h>
+#import <GBNetWork/APiSessionManager.h>
+#import <GBNetWork/ApiRequest.h>
+
 

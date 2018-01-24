@@ -33,7 +33,7 @@
     static dispatch_once_t onceToken;
     static ApiRequest *shareInstance;
     dispatch_once(&onceToken, ^{
-        shareInstance = [[self alloc]init];
+        shareInstance = [[ApiRequest alloc]init];
     });
     return shareInstance;
 }

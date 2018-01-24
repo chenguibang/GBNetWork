@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "GBRequest.h"
+
+
 @protocol GBResponseHandle
 
 - (void)progress:(void (^)(NSProgress * progress))downloadProgress success:(void (^)(id<GBResponseHandle> response))success failure:(void (^)(NSURLSessionDataTask * task, NSError * error))failure;
